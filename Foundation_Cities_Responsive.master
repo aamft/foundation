@@ -146,9 +146,7 @@
     </script>
 </head>
 <body id="MainBody">
-    <script src="//cdn.jsdelivr.net/jquery.slick/1.5.7/slick.min.js"></script>
-    <script src="//cdn.jsdelivr.net/jquery.slick/1.5.7/slick.css?forceReload=1519928413188"></script>
-    <script src="/App_Themes/Foundation_Austin_Responsive/app.js"></script>
+    <link rel="stylesheet" href="https://aamft.github.io/foundation/z-custom.css" />
     <%-- The following element allows for remembering tabbing on the page for WCAG compliance.  It can be removed if the behavior is not desired. --%>
     <a href="#contentstart" class="screen-reader-text show-on-focus">Skip to main content</a>
     <form id="TemplateForm" method="post" runat="server">
