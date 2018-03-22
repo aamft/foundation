@@ -14,7 +14,7 @@
 .home-secondary {
   border-top: 10px solid; }
   .home-secondary.hs1 {
-    border-color: #F89A1C; }
+    border-color: #f89a1c; }
   .home-secondary.hs2 {
     border-color: #4560AD; }
   .home-secondary.hs3 {
@@ -29,5 +29,19 @@
 
 .has-secondary-col .col-primary {
   width: 100%; }
+
+/* _ui.scss */
+.side .button {
+  display: inline-block;
+  padding: 10px;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #4560AD;
+  text-decoration: none;
+  font-weight: bold;
+  width: 184px;
+  text-align: center; }
+  .side .button:hover {
+    background-color: #f89a1c; }
 
 /*# sourceMappingURL=z-custom.css.map */
