@@ -1,0 +1,9 @@
+/* _interior */
+
+/*==== HIDE DEFAULT SECONDARY (SIDE) NAVIGATION ====*/
+.has-secondary-col .col-secondary {
+    display: none;
+}
+.has-secondary-col .col-primary {
+    width: 100%;
+}

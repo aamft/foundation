@@ -1,0 +1,33 @@
+/* z-custom.scss */
+/* _header.scss */
+#ste_container_HeaderLogoSpan img {
+  max-width: 200px; }
+
+/* _homePage.scss */
+/*=== SLIDER ===*/
+.home-slide {
+  background: url("/Images/foudation/home/foundation-home-banner-red.png"); }
+  .home-slide .carousel-inner.bg-img > .item {
+    background-color: rgba(0, 0, 0, 0.3); }
+
+/*============= HOMEPAGE SECONDARY ===============*/
+.home-secondary {
+  border-top: 10px solid; }
+  .home-secondary.hs1 {
+    border-color: #F89A1C; }
+  .home-secondary.hs2 {
+    border-color: #4560AD; }
+  .home-secondary.hs3 {
+    border-color: #9A1D20; }
+  .home-secondary > div {
+    padding: 0px 7px; }
+
+/* _interior */
+/*==== HIDE DEFAULT SECONDARY (SIDE) NAVIGATION ====*/
+.has-secondary-col .col-secondary {
+  display: none; }
+
+.has-secondary-col .col-primary {
+  width: 100%; }
+
+/*# sourceMappingURL=z-custom.css.map */

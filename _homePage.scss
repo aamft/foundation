@@ -1,0 +1,31 @@
+/* _homePage.scss */
+
+
+
+/*=== SLIDER ===*/
+.home-slide{
+	background: url('/Images/foudation/home/foundation-home-banner-red.png');
+	.carousel-inner.bg-img > .item{
+		background-color: rgba(0,0,0,0.3);
+	}
+}
+
+
+
+/*============= HOMEPAGE SECONDARY ===============*/
+.home-secondary {
+border-top: 10px solid;
+
+	&.hs1 {
+		border-color: #F89A1C;
+	}
+	&.hs2 {
+		border-color: #4560AD;
+	}
+	&.hs3 {
+		border-color: #9A1D20;
+	}
+	> div {
+		padding: 0px 7px;
+	}
+}
