@@ -3,6 +3,7 @@
 /*=== GO FULL WIDTH ===*/
 .HomePageFullWidthArea + #masterContentArea{
 	width: 100%;
+	max-width: 100%;
 	
 	.row + .row{
 		max-width: $maxWidth;

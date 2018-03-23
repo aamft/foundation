@@ -6,7 +6,8 @@
 /* _homePage.scss */
 /*=== GO FULL WIDTH ===*/
 .HomePageFullWidthArea + #masterContentArea {
-  width: 100%; }
+  width: 100%;
+  max-width: 100%; }
   .HomePageFullWidthArea + #masterContentArea .row + .row {
     max-width: 1170px;
     margin: auto; }
