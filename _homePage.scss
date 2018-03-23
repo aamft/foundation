@@ -5,6 +5,9 @@
 	width: 100%;
 	max-width: 100%;
 	
+	.row:first-child > .col-sm-12{
+		padding: 0px;
+	}
 	.row + .row{
 		max-width: $maxWidth;
 		margin: auto;
@@ -13,10 +16,15 @@
 
 /*=== SLIDER ===*/
 .home-slide{
-	background: url('#{$domain}/Images/foudation/home/foundation-home-banner-red.png');
+	max-width: $maxWidth;
+	margin: auto;
+	
 	.carousel-inner.bg-img > .item{
 		background-color: rgba(0,0,0,0.3);
 	}
+}
+.home-primary-slider{
+	background: url('#{$domain}/Images/foudation/home/foundation-home-banner-red.png');
 }
 
 

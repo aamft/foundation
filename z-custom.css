@@ -8,15 +8,21 @@
 .HomePageFullWidthArea + #masterContentArea {
   width: 100%;
   max-width: 100%; }
+  .HomePageFullWidthArea + #masterContentArea .row:first-child > .col-sm-12 {
+    padding: 0px; }
   .HomePageFullWidthArea + #masterContentArea .row + .row {
     max-width: 1170px;
     margin: auto; }
 
 /*=== SLIDER ===*/
 .home-slide {
-  background: url("//dev.aamftfoundation.org/Images/foudation/home/foundation-home-banner-red.png"); }
+  max-width: 1170px;
+  margin: auto; }
   .home-slide .carousel-inner.bg-img > .item {
     background-color: rgba(0, 0, 0, 0.3); }
+
+.home-primary-slider {
+  background: url("//dev.aamftfoundation.org/Images/foudation/home/foundation-home-banner-red.png"); }
 
 /*============= HOMEPAGE SECONDARY ===============*/
 .home-secondary {
