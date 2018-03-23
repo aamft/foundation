@@ -18,10 +18,17 @@
 .home-slide{
 	max-width: $maxWidth;
 	margin: auto;
-	
+
 	.carousel-inner.bg-img > .item{
-		background-color: rgba(0,0,0,0.3);
+		background-color: rgba(0,0,0,0.7);
 	}
+	.carousel-caption, .carousel-caption h2{
+		text-align: left;
+	}
+	.carousel-caption .h4{
+		text-align: right;
+	}
+
 }
 .home-primary-slider{
 	background: url('#{$domain}/Images/foudation/home/foundation-home-banner-red.png');

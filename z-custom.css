@@ -19,7 +19,11 @@
   max-width: 1170px;
   margin: auto; }
   .home-slide .carousel-inner.bg-img > .item {
-    background-color: rgba(0, 0, 0, 0.3); }
+    background-color: rgba(0, 0, 0, 0.7); }
+  .home-slide .carousel-caption, .home-slide .carousel-caption h2 {
+    text-align: left; }
+  .home-slide .carousel-caption .h4 {
+    text-align: right; }
 
 .home-primary-slider {
   background: url("//dev.aamftfoundation.org/Images/foudation/home/foundation-home-banner-red.png"); }
