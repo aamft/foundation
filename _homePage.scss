@@ -1,6 +1,14 @@
 /* _homePage.scss */
 
-
+/*=== GO FULL WIDTH ===*/
+.HomePageFullWidthArea + #masterContentArea{
+	width: 100%;
+	
+	.row + .row{
+		max-width: $maxWidth;
+		margin: auto;
+	}
+}
 
 /*=== SLIDER ===*/
 .home-slide{
