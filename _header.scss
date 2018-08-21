@@ -6,7 +6,9 @@
 
 /* AUXILIARY NAV BUTTON */
 .nav-auxiliary{
-	a.btn{
-		color: #fff !important;
+	a.btn-success, a.btn-success *{
+		background: #F79C16;
+		text-decoration: none;
+		color: #fff;
 	}
 }

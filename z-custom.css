@@ -4,8 +4,10 @@
   max-width: 200px; }
 
 /* AUXILIARY NAV BUTTON */
-.nav-auxiliary a.btn {
-  color: #fff !important; }
+.nav-auxiliary a.btn-success, .nav-auxiliary a.btn-success * {
+  background: #F79C16;
+  text-decoration: none;
+  color: #fff; }
 
 /* _homePage.scss */
 /*=== GO FULL WIDTH ===*/
