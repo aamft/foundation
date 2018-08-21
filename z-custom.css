@@ -3,6 +3,10 @@
 #ste_container_HeaderLogoSpan img {
   max-width: 200px; }
 
+/* AUXILIARY NAV BUTTON */
+.nav-auxiliary a.btn {
+  color: #fff !important; }
+
 /* _homePage.scss */
 /*=== GO FULL WIDTH ===*/
 .HomePageFullWidthArea + #masterContentArea {
