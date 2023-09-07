@@ -41,13 +41,13 @@
 border-top: 10px solid;
 
 	&.hs1 {
-		border-color: #0079a9;
+		border-color: $brandOrange;
 	}
 	&.hs2 {
-		border-color: #ef4871;
+		border-color: $brandBlue;
 	}
 	&.hs3 {
-		border-color: #4bbfae;
+		border-color: $brandRed;
 	}
 	> div {
 		padding: 0px 7px;
